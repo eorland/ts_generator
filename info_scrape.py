@@ -6,6 +6,12 @@ Created on Sun Jun  5 11:12:49 2022
 @author: eliorland
 """
 
+'''
+Orignal script used to make the product info file. It remains unchanged 
+since its initial run and is here to show how the file was first created
+'''
+
+
 import requests
 from bs4 import BeautifulSoup
 import numpy as np

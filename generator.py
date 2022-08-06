@@ -19,7 +19,7 @@ class Generator():
   def __init__(self):
     
     self.tokenizer =  GPT2Tokenizer.from_pretrained('gpt2')
-    self.model = torch.load('model.pt')
+    self.model = torch.load('ref_files/model.pt')
 
   def generate_from_prompt(self, prompt, num_attempts=1, entry_length=200, 
                            top_p=0.8, temperature=1., when_ready=True):
