@@ -61,7 +61,7 @@ hold up well for years to come.
 
 All right, the mention of the cotton is back (and more than once) and the durability is mentioned again. It's even cool to see the attempt to chacterize the Oxford as a "British" shirt (Even if it that isn't [exactly true](https://www.gazman.com.au/blogs/journal/history-of-the-oxford-shirt).) However, this example is definitely not as clean, so it's safe to say that while the tone and some main points are there, I wouldn't exactly call this one a compelling descripton. Just ask *"renowned camp collar expert Dan Taylor of Pantyhose".*
 
-Of course what makes this fun is that you can the model to write about *anything*. For instance, how would James Dean's [iconic jacket](https://imgur.com/2QQVNjI) from *Rebel Without A Cause* be described? Here's two takes for "The James Dean Jacket in Racing Red":
+Of course what makes this fun is that you can get the model to write about *anything*. For instance, how would James Dean's [iconic jacket](https://imgur.com/2QQVNjI) from *Rebel Without A Cause* be described? Here are two takes for "The James Dean Jacket in Racing Red":
 
 >1/2: While our namesake may have emerged from the
 shadows of the pulp pulp pulp industry, The James
@@ -82,7 +82,7 @@ chest pocket, short hem and comfortable comfort,
 The James Dean Jacket is a true asset to your
 wardrobe.
 
-Once again, it's a bit of a hit or miss. That first one? Not so great. But to my surprise, I'm quite pleased with how the second one turned out. Regardless, I think it's pretty cool how both descriptions still have a writing style consistent with the brand's marketing and include common elements such as nods to the histroy or the legacy of the product, the materials, product durability, and a use case or two.
+Once again, it's a bit hit or miss. That first one? Not so great. But to my surprise, I'm quite pleased with how the second one turned out. Regardless, I think it's pretty cool how the descriptions still have a writing style consistent with the brand's marketing and include common elements such as nods to the history or the legacy of the product, the materials, product durability, and a use case or two.
 
 ## Trying It Out For Yourself
 
