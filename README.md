@@ -1,5 +1,11 @@
 # A NLP-based model to generate descriptions for Taylor Stitch products
 
+Table of contents:
+* [Background](https://github.com/eorland/ts_generator#background)
+* [Model Info and Examples](https://github.com/eorland/ts_generator#model-info)
+* [Trying It Out For Yourself](https://github.com/eorland/ts_generator#model-info)
+
+
 ## Background
 
 If you know the clothing company [Taylor Stitch](https://www.taylorstitch.com/), then some first thoughts about them might include distinct product photography, a connection to California, and some really unique fabrics -- at least that what's I tend to think of. After a while I also started to notice a very consistent set of product names and a quite recognizable writing style used for their marketing. Taking all of this in, I wondered if I could train a NLP model to write product descriptions for real or made up Taylor Stitch product names. 
@@ -14,7 +20,7 @@ A few things here: the product naming conventions are always [*product name*] *i
 
 In addition to the consistent product names and descriptions, Taylor Stitch's website made gathering product descriptions to be relatively easy. They have a very accessible [archive](https://www.taylorstitch.com/collections/mens-archive?sorted=best-selling-sales-count) of nearly 1,000 of their products, and otherwise a simple website to scrape. With just a few URLs, I was able to scrape all the info I needed and create nearly 1,200 training examples from old and in-stock products alike. I've made my current version of the training data file available in ```ref_files/product_info.csv```; the original script I used to create this file is titled ```info_scrape.py``` and I created an interactive notebook which allows for regular updates of the training data, titled ```update_text_file.ipynb``` 
 
-## Model Info
+## Model Info and Examples
 
 For the actual model training, I decided to take advantage of many of the already sophisticated NLP models out there, and focused on fine-tuning a light version of [GPT-2](https://huggingface.co/gpt2) provided by Hugging Face. In other words, this became a transfer learning problem. I'd also like to give credit to François St-Amant's great [article](https://towardsdatascience.com/how-to-fine-tune-gpt-2-for-text-generation-ae2ea53bc272) and whose code served as a foundation which I then adapted to my needs. And while there are more powerful versions of GPT-2 available, the lightest version is nonetheless >500mb! As such, having a functional model which was also on the lighter side was important to me. 
 
@@ -78,7 +84,7 @@ wardrobe.
 
 Once again, it's a bit of a hit or miss. That first one? Not so great. But to my surprise, I'm quite pleased with how the second one turned out. Regardless, I think it's pretty cool how both descriptions still have a writing style consistent with the brand's marketing and include common elements such as nods to the histroy or the legacy of the product, the materials, product durability, and a use case or two.
 
-## Try it out for yourself
+## Trying It Out For Yourself
 
 Interested in generating some descriptions of your own? Clone this repo and give it a shot. One caveat is that you will need to create virtual environment specific to the model and I've provided everything in a ```.yml``` file for your use. Note the trained model is ```~500mb```. 
 
