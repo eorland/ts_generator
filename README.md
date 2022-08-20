@@ -2,8 +2,8 @@
 
 Table of contents:
 * [Background](https://github.com/eorland/ts_generator#background)
-* [Model Info and Examples](https://github.com/eorland/ts_generator#model-info)
-* [Trying It Out For Yourself](https://github.com/eorland/ts_generator#model-info)
+* [Model Info and Examples](https://github.com/eorland/ts_generator#model-info-and-examples)
+* [Trying It Out For Yourself](https://github.com/eorland/ts_generator#trying-it-out-for-yourself
 
 
 ## Background
