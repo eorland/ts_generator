@@ -8,7 +8,7 @@ Table of contents:
 
 ## Background
 
-If you know the clothing company [Taylor Stitch](https://www.taylorstitch.com/), then some first thoughts about them might include distinct product photography, a connection to California, and some really unique fabrics -- at least that what's I tend to think of. After a while I also started to notice a very consistent set of product names and a quite recognizable writing style used for their marketing. Taking all of this in, I wondered if I could train a NLP model to write product descriptions for real or made up Taylor Stitch product names. 
+If you know the clothing company [Taylor Stitch](https://www.taylorstitch.com/), then some first thoughts about them might include distinct product photography, a connection to California, and some really unique fabrics -- at least that what's I tend to think of. After a while I also started to notice a very consistent set of product names and a pretty recognizable writing style used for their marketing. Taking all of this in, I wondered if I could train a NLP model to write product descriptions for real or made up Taylor Stitch product names. 
 
 Take this real product description as an example:
 
@@ -18,7 +18,7 @@ Take this real product description as an example:
 
 A few things here: the product naming conventions are always [*product name*] *in* [*colorway*], and note how the description focuses on the durability of the product, its history within the company, and the wide variety of the product's use cases. I won't pretend that these sentiments are exclusive to just Taylor Stitch's marketing, but I've found that the tone and consistency of these product descriptions make for what could be a fun modeling problem. Put more broadly: *with enough examples, is it possible to train a NLP model to generate fake marketing descriptions in same writing style?* 
 
-In addition to the consistent product names and descriptions, Taylor Stitch's website made gathering product descriptions to be relatively easy. They have a very accessible [archive](https://www.taylorstitch.com/collections/mens-archive?sorted=best-selling-sales-count) of nearly 1,000 of their products, and otherwise a simple website to scrape. With just a few URLs, I was able to scrape all the info I needed and create nearly 1,200 training examples from old and in-stock products alike. I've made my current version of the training data file available in ```ref_files/product_info.csv```; the original script I used to create this file is titled ```info_scrape.py``` and I created an interactive notebook which allows for regular updates of the training data, titled ```update_text_file.ipynb``` 
+In addition to the consistent product names and descriptions, Taylor Stitch's website made gathering product descriptions to be relatively easy. They have a very accessible [archive](https://www.taylorstitch.com/collections/mens-archive?sorted=best-selling-sales-count) of nearly 1,000 of their products, and otherwise a simple website to scrape. With just a few URLs, I was able to scrape all the info I needed to create nearly 1,200 training examples from old and in-stock products alike. I've made my current version of the training data file available in ```ref_files/product_info.csv```; the original script I used to create this file is titled ```info_scrape.py``` and I created an interactive notebook which allows for regular updates of the training data, titled ```update_text_file.ipynb``` 
 
 ## Model Info and Examples
 
