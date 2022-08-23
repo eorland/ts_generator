@@ -103,6 +103,6 @@ writer.write(sample_products,num_attempts=2,when_ready=True)
 
 Note that all products follow the [*product name*] *in* [*colorway/material*] naming pattern. This is important as the model was trained specifically using this template for each prompt. If you decide to try it out for yourself, please add any descriptions you particularly like to ```ref_files/sample_output.txt``` and initiate a pull request. I'd love to have that file as a collection of everyone's favorite entries. 
 
-Finally, I am planning on adding a few more features such as the opportunity to train the model a little further. Also as more products are introduced I can add them to the training file so the model can get more examples to learn from. Still, I don't think it will ever be perfect and that's the beauty of it: even as there are already more advanced NLP models out there, a model which creates near perfect examples every time it would be a little boring. Instead the unexpected nature of all these descriptions makes it quite entertaining!
+Finally, I am planning on adding a few more features such as the opportunity to train the model a little further. Also as more products are introduced I can add them to the training file so the model can get more examples to learn from. Still, I don't think it will ever be perfect and that's the beauty of it; a model which creates near perfect examples every time would be boring anyway. Instead it's the unexpected nature of all these descriptions that make it quite entertaining.
 
 Any other questions? Create an issue and we'll go from there.
